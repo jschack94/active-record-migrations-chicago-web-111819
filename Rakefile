@@ -7,4 +7,3 @@ task :console do
   IRB.start
 end
 
-bundle exec rake db:migrate
