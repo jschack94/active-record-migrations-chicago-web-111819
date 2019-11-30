@@ -14,3 +14,5 @@ ActiveRecord::Base.establish_connection(
   :database => "db/artists.sqlite"
 
 require_relative "../artist.rb"
+
+bundle exec rake db:migrate
