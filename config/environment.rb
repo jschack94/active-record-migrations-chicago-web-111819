@@ -15,4 +15,4 @@ ActiveRecord::Base.establish_connection(
 
 require_relative "../artist.rb"
 
-bundle exec rake db:migrate
+bundle exec rake db:migraterake db:migrate
