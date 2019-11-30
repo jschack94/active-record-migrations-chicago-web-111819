@@ -8,6 +8,7 @@ require 'date'
 require 'bundler/setup'
 Bundler.require
 
+bundle exec rake db:migrate
 
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
@@ -15,4 +16,4 @@ ActiveRecord::Base.establish_connection(
 
 require_relative "../artist.rb"
 
-bundle exec rake db:migraterake db:migrate
+
